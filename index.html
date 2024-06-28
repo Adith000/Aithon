@@ -17,24 +17,26 @@
 </head>
 
 <body>
+
+  <div id="pre-loader"></div>
   <header style="background-size: cover;">
     
-    <div class="container-fluid p-0" style="margin-bottom: 7rem;">
-      <nav class="navbar">
+    <div class="container-fluid p-0" style="margin-bottom: 3rem;"> 
+      <nav class="navbar" style="font-size: 1rem; padding: 1rem;"> 
         <div class="brand-title" style="margin-left: -2rem;">
           <a href="./index.html">
-            <i class="fa-2x mx-3"></i><img style="scale: 0.8;" src="images/aithon logo small.png">
+            <i class="fa-2x mx-3"></i><img style="scale: 0.8;" src="images/aithon logo small.png"> 
           </a>
         </div>
         <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span class="bar" style="width: 25px; height: 3px;"></span> 
+          <span class="bar" style="width: 25px; height: 3px;"></span>
+          <span class="bar" style="width: 25px; height: 3px;"></span>
         </a>
         <div class="navbar-links">
           <!--navbar-->
-          <ul>
-            <li><a href="./index.html">Home</a></li>
+          <ul style="font-size: 1rem;"> 
+            <li><a href="#  ">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#past">Past Event</a></li>
             <li><a href="#Contact">Contact Us</a></li>
@@ -46,13 +48,12 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
-          <h1 >AITHON <span style="color: #40BEDE; font-family:Montserrat;">2.0</span></h1>
+          <h1>AITHON<span style="   color: #40BEDE; font-family:ROG LyonsType; font-size: 5vmin; ">2.0</span></h1> 
           <h5 style="margin-top: -1rem;">Crafting future Signals with AI</h5>
           <br>
           <br>
           <h6>IEEE Computer Society and Signal Processing Society Collge of Engineering Karunagappally initiative</h6>
-          <!-- <h6>IEEE Signal Processing Society and Computer Society <br>College of Engineering  Karunagappally initiative </h6> -->
-          <h3>Coming SOON!</h3>
+          <h3 >Coming <span   style="color: #40BEDE">  Soon!</span></h3>
           <!-- <a href="#Registration">
             <button class="btn btn-light px-5 py-2 primary-btn">
               Register Now
@@ -108,6 +109,9 @@
       </div>
     </section>
     </main>
+
+
+    <!-- Society -->
 
 
 
@@ -172,9 +176,7 @@
   </div>
  
     </section>
-    <div class="card2">
-
-    </div>
+  
 
 
 
@@ -413,10 +415,10 @@
             <p>
               <a href="#About" class="text-reset">About</a>
             </p>
-            <!-- <p>
-              <a href="#Registration" class="text-reset">Registration</a>
+             <p>
+              <a href="#past" class="text-reset">Past events</a>
             </p>
-            <p>
+            <!-- <p>
               <a href="#Schedule" class="text-reset">Schedule</a>
             </p>
             <p>
@@ -481,7 +483,6 @@
    
   </footer>
 </div>
-
 <!-- loader -->
 <!--div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#ffffff"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div-->
 
@@ -521,5 +522,17 @@ VANTA.GLOBE({
 })
 </script>
   
+
+<script>
+  var loader= document.getElementById("pre-loader");
+  window.addEventListener("load",function(){
+    setTimeout(function(){
+      loader.style.display="none";
+      
+    },1750);
+  });
+ 
+</script>
+
 </body>
 </html>
