@@ -2,6 +2,21 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'aquire';
+  src: url("../fonts/aquire-font/Aquire-BW0ox.otf") format('opentype'),
+       
+}
+@font-face {
+  font-family: 'Julietta';
+  src: url("../fonts/Juliette/Julietta-Messie.otf") format('opentype'),
+       
+}
+
+@font-face {
+  font-family: 'ROG';
+  src: url("../fonts/ROG/ROGLyonsTypeRegular3.ttf") format('truetype');       
+}
 
 header,
 section {
@@ -24,6 +39,7 @@ section {
   justify-content: space-between;
   align-items: center;
   color: white;
+  
 }
 
 
@@ -221,8 +237,9 @@ header .container .col-md-7 h5 {
 }
 header .container .col-md-7 h3 {
   padding-top: 0.4em;
-  font-family: "Montserrat", sans-serif;
-  font-size:6vmin;
+  font-family:'Julietta Messie';
+  font-weight: 100;
+  font-size:12vmin;
 }
 
 header .container .col-md-7 h6 {
@@ -493,3 +510,29 @@ footer .column i + i {
     
      }
    }
+
+  #pre-loader
+  {
+    background: #000000 url("../pre-loader.gif") no-repeat center center;
+    background-size:10%;
+    height: 100vh;
+    width: 100vw;
+    scale: 2;
+    position: fixed;
+    z-index: 100;
+    transition-delay: 2s ;
+    
+  }
+
+
+.imgcontainer{
+  box-shadow: 0,10px,10px,0 rgba(0,0,0,19),0 10px 10px 0 rgba(0,0,0,19);
+  height:400px;
+  width:600px;
+}
+
+
+.sponsrimg{
+height: 200px;
+width: 200px;
+}
