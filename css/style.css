@@ -927,6 +927,7 @@ padding: 20px;
   border-left: 2px solid #00ccff;
   background-color: rgb(0, 0, 0);
   border-radius: 25px 25px 25px 25px;
+  color: white;
 }
 .aithonday-content-2 {
   padding: 10px;
@@ -936,7 +937,7 @@ padding: 20px;
   border-left: 2px solid #00ccff;
   background-color: rgb(0, 0, 0);
   border-radius: 25px 25px 25px 25px;
-  
+  color: white;
 }
 
 @media (min-width:768px) {
